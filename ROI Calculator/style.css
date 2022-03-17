@@ -1,0 +1,396 @@
+*{
+    margin-left: 10px;
+
+}
+.font{
+    font-family: system-ui;
+    font-weight:500;
+    margin-left: -3px;
+    margin-top: -17px;
+    margin-top: 0px;
+}
+.font2{
+    font-family: system-ui;
+    font-weight:500;
+    margin-left: 18px;
+    margin-top: 26px;
+    margin-top: 20px;
+
+}
+.font1{
+    font-family: system-ui;
+    font-weight: bold;
+    text-align: left;
+    margin-left: -15px;
+    color: black;
+    margin-top: -19px;
+}
+
+
+.cal{
+color:rgba(167, 162, 162, 0.932);;
+font-weight: bold;
+font-family: system-ui; 
+text-align:left; 
+margin-left: 376px; 
+margin-right: 0px;
+}
+
+    .cal2{
+        color:rgba(192, 189, 189, 0.932);
+        font-weight: 700;
+        font-family: system-ui; 
+        text-align:left;
+        margin-left: 0px;
+       margin-top: -15px;
+
+    
+    }
+    .cal3{
+        color:black;
+        font-weight: bold;
+        font-family: system-ui; 
+        text-align:left;
+    }
+
+.cake{
+    color:rgba(192, 189, 189, 0.932);;
+    font-weight: bold;
+    font-family: system-ui; 
+    text-align:left; 
+     margin-left: -20px;
+}
+.cakemod{
+    color:rgba(192, 189, 189, 0.932);;
+    font-weight: bold;
+    font-family: system-ui; 
+    text-align:left; 
+     margin-left: 420px;
+     margin-top: -60px;
+}
+    
+
+    
+
+.cake1{
+    font-weight: bold;
+    font-size: large;
+    font-family: system-ui;
+    text-decoration-color:black;
+    background-color: rgba(131, 123, 123, 0.151);
+    border:none;
+    border-radius: 10px; 
+    width:39%;
+    height:50%;
+    padding:20px 5px;
+    text-align:end;
+    margin-left: -40px;
+}
+.cakes{
+    font-weight: bold;
+    font-size: large;
+    font-family: system-ui;
+    text-decoration-color:black;
+    background-color: rgba(131, 123, 123, 0.151);
+    border:none;
+    border-radius: 10px; 
+    width:38%;
+    height:20%;
+    padding:20px 5px;
+    text-align:end;
+    margin-left: -12px;
+}
+.cake3{
+    color:rgba(192, 189, 189, 0.932);
+    font-weight: bold;
+    font-family: system-ui; 
+    text-align:left; 
+    margin-left: 355px; 
+    margin-right: 0px;
+} 
+.cake3m{
+    color:rgba(192, 189, 189, 0.932);
+    font-weight: bold;
+    font-family: system-ui; 
+    text-align:left; 
+    margin-left: 382px; 
+    margin-right: 0px;
+} 
+
+.button1{
+background-color: rgba(131, 123, 123, 0.151);
+border: none;
+color:black;
+padding:10px 20px;
+text-align: center;
+border-radius: 10px; 
+cursor: pointer;
+font-weight: 700;
+font-family: system-ui;
+}
+
+.active1, .button1:hover{
+    background-color:rgba(251, 255, 0, 0.39);
+    border: none;
+    color:black;
+    padding:10px 20px;
+    text-align: center;
+    border-radius: 10px; 
+    cursor: pointer;
+    font-weight:700;
+    font-family: system-ui;
+    
+    }
+    
+.button2{
+    background-color: rgba(131, 123, 123, 0.151);
+    border: none;
+    color:rgba(192, 189, 189, 0.932);
+    padding:10px 20px;
+    text-align: center;
+    border-radius: 16px; 
+    cursor: pointer;
+    width: 7%;
+    font-weight: 700;
+    font-family: system-ui;
+    margin-left: 3px ;
+     }
+
+     .active2, .button2:hover{
+        background-color:rgba(240, 208, 25, 0.76);
+        border: none;
+        color:black;
+        padding:10px 20px;
+        text-align: center;
+        border-radius: 16px; 
+        cursor: pointer;
+        width: 7%;
+        font-weight: 700;
+        font-family: system-ui;
+         }
+
+    .button3{
+        background-color: rgba(131, 123, 123, 0.151);
+        border: none;
+        color:rgba(192, 189, 189, 0.932);
+        padding:10px 20px;
+        text-align: center;
+        border-radius: 16px; 
+        cursor: pointer;
+        width:7%;
+        font-weight: 700;
+        font-family: system-ui;
+        margin-left: 3px ;
+        }
+
+        .active3, .button3:hover{
+            background-color:rgba(240, 208, 25, 0.76);
+            border: none;
+            color:black;
+            padding:10px 20px;
+            text-align: center;
+            border-radius: 16px; 
+            cursor: pointer;
+            width:7%;
+            font-weight: 700;
+            font-family: system-ui;
+            }
+
+       
+        .switch{
+            position:relative;
+            display: inline-block;
+            width: 40px;
+            height: 17px;
+            margin: -3px 5px;
+        
+        }
+        .slider{
+            position: absolute;
+            cursor:pointer;
+            top: 0;
+            left:0;
+            right:0;
+            bottom:0;
+            transition: .4s;
+            background-color: #e9ec0e7a; 
+            border-radius: 10px;
+        }
+        .switch input{
+            display: none;
+        }
+        .slider:before{
+            position: absolute;
+           content: "";
+           height: 14px;
+           width:10px;
+           left: 2px;
+           bottom: 2px;
+           top:2px;
+           background-color: white;
+           transition: 0.4s;
+           border-radius: 50px;
+    }
+    input:checked + .slider
+    {
+        background-color: #f3d421f1;
+    }
+    
+    input:checked + .slider:before
+    {
+        transform: translateX(18px);
+    }
+    .toggle{
+        position:relative;
+        display: inline-block;
+        width: 47px;
+        height: 21px;
+        margin:-1px -150px;
+       margin-top: -25px;
+       color:rgba(192, 189, 189, 0.932); 
+        text-align:left; 
+        margin-left: 450px; 
+        margin-right: 0px;
+    }
+
+    
+    .slider2{
+        position: absolute;
+        cursor:pointer;
+        top: 0px;
+        left:0;
+        right: -2px;
+        bottom:34px;
+        transition: .4s;
+        background-color: #c7c5bd9c;
+        border-radius: 10px;
+        margin-top: -35px;
+    }
+    .toggle input{
+        display: none;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider2:before{
+        position: absolute;
+       content: "";
+       height: 17px;
+       width: 17px;
+       left: 2px;
+       bottom: 2px;
+       top:2px;
+       background-color: white;
+       transition: 0.4s;
+       border-radius: 50px;
+}
+input:checked + .slider2
+{
+    background-color: #f3d421f1;
+}
+input:checked + .slider2:before
+{
+
+    transform: translateX(18px);
+}
+
+.button4{
+    background-color:white;
+color:rgba(177, 170, 170, 0.877);
+padding:14px 100px;
+text-align: center;
+border-radius: 12px; 
+cursor: pointer;
+font-weight:600;
+font-family: system-ui;
+border-color: rgba(177, 170, 170, 0.877);
+}
+
+.active4, .button4:hover {
+    background-color:black;
+color:white;
+padding:14px 100px;
+text-align: center;
+border-radius: 12px; 
+cursor: pointer;
+font-weight:600;
+font-family: system-ui;
+border-color: rgba(177, 170, 170, 0.877);
+}
+
+.faq{
+    max-width: 350px;
+    margin-top: 0.5rem;
+    padding-bottom:1rem ;
+    cursor:pointer;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: small;
+    text-align:left;
+    cursor:pointer;
+}
+.answer{
+    overflow: hidden;
+   padding-top: 1rem;
+    color:rgba(182, 175, 175, 0.925);
+    font-weight: bold;
+    font-size:67.5%;
+    font-family: system-ui; 
+    text-align:left;
+    margin-left:-20px;
+}
+#answer1{
+    overflow: hidden;
+   padding-top: 1rem;
+    color:rgba(182, 175, 175, 0.925);
+    font-weight: bold;
+    font-size:67.5%;
+    font-family: system-ui; 
+    text-align:left;
+    margin-left:-20px;
+}
+
+.faq.active.answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+    }
+    @keyframes fade{
+        from{
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+   
+#demo{
+    background-color: white;
+    font-weight: bold;
+    font-family: system-ui;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: small;
+    margin-left: 200px;
+    }
+
+    .fontuser{
+        left:2px;
+        top:40px;
+        color:rgba(184, 178, 178, 0.726);
+        align-items: left;
+        width: 95%;
+
+    }
+    
