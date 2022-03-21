@@ -4,8 +4,7 @@ for(var i=0; i<btns.length;i++){
     btns[i].addEventListener("click", function()
     {
         var current = document.getElementsByClassName("active1");
-        current[0].className = current[0].className.replace("active1", "");
-        this.className += " active1";
+       
     });
 }
 
@@ -15,8 +14,7 @@ for(var i=0; i<btns.length;i++){
     btns[i].addEventListener("click", function()
     {
         var current = document.getElementsByClassName("active2");
-        current[0].className = current[0].className.replace("active2", "");
-        this.className += " active2";
+       
     });
 }
 
@@ -26,8 +24,7 @@ for(var i=0; i<btns.length;i++){
     btns[i].addEventListener("click", function()
     {
         var current = document.getElementsByClassName("active3");
-        current[0].className = current[0].className.replace("active3", "");
-        this.className += " active3";
+        
     });
 }
 var header = document.getElementById("myDIV4");
@@ -36,8 +33,7 @@ for(var i=0; i<btns.length;i++){
     btns[i].addEventListener("click", function()
     {
         var current = document.getElementsByClassName("active4");
-        current[0].className = current[0].className.replace("active4", "");
-        this.className += " active4";
+        
     });
 }
 
@@ -126,12 +122,12 @@ btnUSEBALANCE.addEventListener('click',() => btnUSEBALANCE.style.backgroundColor
 btn$1000.addEventListener('click',() => btn$1000.style.backgroundColor='#e9ec0e7a')
 btn$100.addEventListener('click',() =>btn$100.style.backgroundColor='#e9ec0e7a')
 
-let btnApply = document.querySelector('#myDiv');
-let btnCancel = document.querySelector('#myDiv');
+let btnApply = document.querySelector('#myDIV4');
+let btnCancel = document.querySelector('#myDIV4');
 
 
 btnApply.addEventListener('click',() => btnApply.style.backgroundColor='black')
 btnApply.addEventListener('click',() =>btnApply.style.color='white')
-btnCancel.addEventListener('click',() =>btnCancel.style.backgroundColor='black')
-btnCancel.addEventListener('click',() =>btnCancel.style.color='white')*/
-
+btnCancel.addEventListener('click',() =>btnCancel.style.backgroundColor='yellow')
+btnCancel.addEventListener('click',() =>btnCancel.style.color='white')
+*/
